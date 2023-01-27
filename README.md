@@ -10,7 +10,7 @@
 
 ## Install
 
-⚠️ This library is extremely simple, if you prefer you can just copy the contents of [src/index.ts](https://github.com/Luffos/rxn-stylestate/blob/main/src/index.ts) and use it directly in your project without downloads.
+⚠️ This library is extremely simple (one line), if you prefer you can just copy the contents of [src/index.ts](https://github.com/Luffos/rxn-stylestate/blob/main/src/index.ts) and use it directly in your project without downloads.
 
 Using NPM
 ```sh
