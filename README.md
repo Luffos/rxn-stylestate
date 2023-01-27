@@ -52,7 +52,7 @@ export const myView = createStyle<{ wrapper: ViewStyle; title: { 0: TextStyle; s
   return {
     wrapper: { backgroundColor: 'black', alignSelf: 'flex-start', borderRadius: 8, padding: 20 },
     title: {
-      0: { color: 'white' },
+      0: { color: 'white' }, //0 is a fictitious name for "this", but you can use it as you wish
       span: {
         color: 'cyan',
         fontSize: 20
