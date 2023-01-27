@@ -32,7 +32,7 @@ export default App;
 ```ts
 import { useState, useEffect } from 'react';
 import { TextStyle, ViewStyle } from 'react-native';
-import { createStyle, createStyleObject } from 'rxn-stylestate';
+import { createStyle } from 'rxn-stylestate';
 
 export const myText = createStyle<TextStyle>(() => {
   const [colorState, setColorState] = useState('red');
@@ -48,7 +48,7 @@ export const myText = createStyle<TextStyle>(() => {
   return { color: colorState, fontSize: 30 };
 });
 
-export const myView = createStyleObject<{ wrapper: ViewStyle; title: { 0: TextStyle; span: TextStyle } }>(() => {
+export const myView = createStyle<{ wrapper: ViewStyle; title: { 0: TextStyle; span: TextStyle } }>(() => {
   return {
     wrapper: { backgroundColor: 'black', alignSelf: 'flex-start', borderRadius: 8, padding: 20 },
     title: {
@@ -60,4 +60,5 @@ export const myView = createStyleObject<{ wrapper: ViewStyle; title: { 0: TextSt
     },
   };
 });
+
 ```
