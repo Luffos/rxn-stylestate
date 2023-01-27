@@ -1,0 +1,50 @@
+{
+    "name": "rxn-stylestate",
+    "version": "0.0.1",
+    "description": "🖼️ Simple style-with-states utility (for React Native, React Native Web and Expo).",
+    "keywords": [
+      "react",
+      "typescript",
+      "react-native",
+      "react-native-web",
+      "expo",
+      "rxn",
+      "style",
+      "styled"
+    ],
+    "homepage": "https://github.com/Luffos/rxn-stylestate#readme",
+    "bugs": {
+      "url": "https://github.com/Luffos/rxn-stylestate/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Luffos/rxn-stylestate.git"
+    },
+    "license": "MIT",
+    "author": "Luffos",
+    "main": "dist/index.js",
+    "source": "src/index",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "build": "rimraf ./dist && tsc --build",
+      "prepack": "npm run build"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-native": "^0.70.5"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.23",
+      "@types/react-native": "^0.70.6",
+      "rimraf": "^3.0.2",
+      "typescript": "^4.9.4"
+    },
+    "peerDependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-native": "^0.70.5"
+    }
+  }
