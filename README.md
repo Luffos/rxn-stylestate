@@ -1,8 +1,24 @@
 # rxn-stylestate
 React Native Style with States Utility (for React Native, React Native Web and Expo)
 
+## Install
 
-## index.tsx
+⚠️ This library is extremely simple, if you prefer you can just copy the contents of [src/index.ts](https://github.com/Luffos/rxn-stylestate/blob/main/src/index.ts) and use it directly in your project without downloads.
+
+Using NPM
+```sh
+npm install rxn-stylestate
+```
+
+Using Yarn
+```sh
+yarn add rxn-stylestate
+```
+🌐 Using this module for Web?<br/>Don't forget to setup [react-native-web](https://github.com/necolas/react-native-web)
+
+## Usage 
+
+### index.tsx
 ```tsx
 import * as React from 'react';
 import { SafeAreaView, View, Text } from 'react-native';
