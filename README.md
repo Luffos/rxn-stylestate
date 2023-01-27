@@ -32,7 +32,7 @@ export default App;
 ```ts
 import { useState, useEffect } from 'react';
 import { TextStyle, ViewStyle } from 'react-native';
-import { createStyle, createStyleObject } from 'rxn-grife';
+import { createStyle, createStyleObject } from 'rxn-stylestate';
 
 export const myText = createStyle<TextStyle>(() => {
   const [colorState, setColorState] = useState('red');
