@@ -18,9 +18,14 @@ const App = () => {
   });
   
   const textStyle2 = createStyleStateObject<{wrapper: ViewStyle, title: StyleText, content: <StyleText, {span: StyleText}>}>(()=>{
-    return {wrapper: {}, title: {}, content: {
-      color: 'white',
-      span: {}
+    return {
+      wrapper: {},
+      title: {},
+      content: {
+        color: 'white',
+        span: {
+          color: 'cyan'
+        }
     }}
   });
 ```
