@@ -1,5 +1,9 @@
-# rxn-stylestate
-React Native Style with States Utility (for React Native, React Native Web and Expo)
+</br></br>
+<p align="center">
+  <img height="22px" alt="GitHub" src="https://img.shields.io/github/license/Luffos/rxn-stylestate?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub issues" src="https://img.shields.io/github/issues-raw/luffos/rxn-stylestate?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/luffos/rxn-stylestate?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/luffos/rxn-stylestate/main?style=for-the-badge"> ‎ ‎ <img height="22px" alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/luffos/rxn-stylestate?style=for-the-badge">
+</p>
+
+</br>
 
 ## Install
 
