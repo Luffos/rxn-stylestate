@@ -71,12 +71,12 @@ export const myText = createStyle<TextStyle>(() => {
   return { color: colorState, fontSize: 30 };
 });
 
-export const myView = createStyle<{ wrapper: ViewStyle; title: { 0: TextStyle; span: TextStyle } }>(() => {
+export const myView = createStyle(() => {
   return {
-    wrapper: { backgroundColor: 'black', alignSelf: 'flex-start', borderRadius: 8, padding: 20 },
+    wrapper: <ViewStyle>{ backgroundColor: 'black', alignSelf: 'flex-start', borderRadius: 8, padding: 20 },
     title: {
-      0: { color: 'white' }, //0 is a fictitious name for "this", but you can use it as you wish
-      span: {
+      0: <TextStyle>{ color: 'white' }, //0 is a fictitious name for "this", but you can use it as you wish
+      span: <TextStyle>{
         color: 'cyan',
         fontSize: 20
       },
