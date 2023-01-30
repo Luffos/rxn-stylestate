@@ -1,7 +1,7 @@
 {
     "name": "rxn-stylestate",
     "version": "0.0.1",
-    "description": "🖼️ Cross-Platform Simple Style-with-States Utility (for React Native, React Native Web and Expo).",
+    "description": "🖼️ Cross-Platform Simple Style-with-States Utility (for React Native, React Native Web and Expo)",
     "keywords": [
       "react",
       "typescript",
